@@ -93,7 +93,7 @@ Live reload is very nice
 
 Here are the tools I use to make blogs/documentation like this one!
 
-## Astro
+## [Astro](https://astro.build/)
 
 Just Astro and sometimes Tailwind CSS because I want fast
 page load times.
