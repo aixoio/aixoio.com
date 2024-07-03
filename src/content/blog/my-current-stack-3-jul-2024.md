@@ -101,8 +101,10 @@ page load times.
 # Sometime soon
 
 Sometime soon I would like to give [HTMX](https://htmx.org/) and [Alpine.js](https://alpinejs.dev/) a try,
-I have also been looking at the Go HTML template engine becauseI think it
+I have also been looking at the Go HTML template engine because I think it
 would work well with HTMX and Alpine, not too mention I want to try
 [Supabase](https://supabase.com/) and [Coolify](https://coolify.io/) because I want to deploy a bit faster
+with Coolify that is I don't like a idea of not making your own backend
+but I still want to try Supabase because I dislike Firebase.
 
 Thanks for reading!
