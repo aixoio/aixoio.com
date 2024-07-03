@@ -60,7 +60,7 @@ it has the best of all other databases.
 ### **3.** [GORM](https://gorm.io/)
 
 I am sick of writing SQL, making valuable apps, and I find the Go
-standard library for SQL to not be the best I have heard about sqlx
+standard library for SQL to not be the best I have heard about [sqlx](http://jmoiron.github.io/sqlx/)
 but have not tried it yet.
 
 ### **4.** [Redis](https://redis.io/)
