@@ -1,7 +1,13 @@
 ---
 import Master from "../../components/Master.astro";
+import Posts from "../../components/Posts.astro";
 ---
 
 <Master>
-    <h1>Posts</h1>
+    <div class="m-auto">
+        <h1 class="font-mono flex justify-center">All posts</h1>
+        <div class="flex justify-center">
+            <Posts />
+        </div>
+    </div>
 </Master>

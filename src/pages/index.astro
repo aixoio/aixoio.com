@@ -1,12 +1,26 @@
 ---
 import Master from "../components/Master.astro";
+import Posts from "../components/Posts.astro";
 ---
 
 <Master>
 	<div class="flex justify-center">
 		<div class="m-auto">
-			<h1 class="font-mono flex justify-center">Welcome to my blog.</h1>
-			<p>Hi, I'm aixoio! I love to program and I wanted a place to publish my work so I made this blog.</p>
+			<div class="mt-3">
+				<h1 class="font-mono flex justify-center">
+					Welcome to my blog.
+				</h1>
+				<p>
+					Hi, I'm aixoio! I love to program and I wanted a place to
+					publish my work so I made this blog.
+				</p>
+			</div>
+			<div class="mt-3">
+				<h1 class="font-mono flex justify-center">All posts</h1>
+				<div class="flex justify-center">
+					<Posts />
+				</div>
+			</div>
 		</div>
 	</div>
 </Master>
