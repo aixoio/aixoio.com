@@ -1,7 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import Master from "../components/Master.astro";
-import { date } from "astro/zod";
 import FormattedDate from "../components/FormattedDate.astro";
 
 type Props = CollectionEntry<"blog">["data"];
@@ -16,7 +15,9 @@ const { title, pubDate } = Astro.props;
             <p class="text-gray-500 text-sm text-right">
                 Published at <FormattedDate date={pubDate} />
             </p>
-            <slot>
+            <div class="break-words whitespace-pre-wrap">
+                <slot />
+            </div>
         </div>
     </div>
 </Master>
