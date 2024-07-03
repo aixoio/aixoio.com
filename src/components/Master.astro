@@ -1,0 +1,18 @@
+---
+import NavBar from "./NavBar.astro";
+import "../styles/gobal.scss";
+
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>aixoio.com</title>
+    </head>
+    <body>
+        <NavBar />
+        <slot />
+    </body>
+</html>
