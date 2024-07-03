@@ -6,7 +6,7 @@ pubDate: 2024-07-03
 At the time of posting this my current full stack tech stack is
 
 # Full-stack apps
-This first stack is for building _fast_ full stack apps.
+This full tech stack is for building _fast_ full stack apps.
 
 ## Frontend
 
