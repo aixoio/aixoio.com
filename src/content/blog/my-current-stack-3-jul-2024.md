@@ -59,8 +59,8 @@ it has the best of all other databases.
 
 ### **3.** [GORM](https://gorm.io/)
 
-I am sick of writing SQL, making vulnable apps, and I find the Go
-standard libary for SQL to not be the best I have heard about sqlx
+I am sick of writing SQL, making valuable apps, and I find the Go
+standard library for SQL to not be the best I have heard about sqlx
 but have not tried it yet.
 
 ### **4.** [Redis](https://redis.io/)
