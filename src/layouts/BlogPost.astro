@@ -15,7 +15,7 @@ const { title, pubDate } = Astro.props;
             <p class="text-gray-500 text-sm text-right">
                 Published at <FormattedDate date={pubDate} />
             </p>
-            <div class="break-words whitespace-pre-wrap">
+            <div class="prose break-words">
                 <slot />
             </div>
         </div>
